@@ -9,8 +9,8 @@ public class MainActivity extends DroidGap {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         super.loadUrl("file:///android_asset/www/index.html");
-        //super.setVolumeControlStream(999999);
     	super.setIntegerProperty("loadUrlTimeoutValue", 90000);
+    	//super.setVolumeControlStream(999999);
         //setContentView(R.layout.activity_main);
     }
 }
