@@ -17,7 +17,7 @@
         <activity
             android:name="com.example.testeaplicativo.MainActivity"
             android:label="@string/app_name" >
-            android:configChanges="orientation|keyboardHidden" 
+            android:configChanges="orientation|screenSize|keyboardHidden|keyboard|locale" 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +27,7 @@
         <activity 
     		android:name="org.apache.cordova.DroidGap" 
     		android:label="@string/app_name" 
-    		android:configChanges="orientation|keyboardHidden"> 
+    		android:configChanges="orientation|screenSize|keyboardHidden|keyboard|locale"> 
     		<intent-filter></intent-filter> 
 		</activity>
         
