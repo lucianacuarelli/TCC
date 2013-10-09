@@ -44,7 +44,7 @@
 				var textpos3 = 230;
 				var textpos4 = 325;
 				var Questions = ["Onde fica Paris?", "Onde fica Londres?", "Onde fica Roma?"];
-				var Options = [["França", "Bélgica", "Dinamarca"], ["Inglaterra", "China", "Espanha"], ["Itália", "Brasil", "Canadá"]];
+				var Options = [["Franï¿½a", "Bï¿½lgica", "Dinamarca"], ["Inglaterra", "China", "Espanha"], ["Itï¿½lia", "Brasil", "Canadï¿½"]];
 
 				quizbg.onload = function() {
 					context.drawImage(quizbg, 0, 0);
@@ -142,7 +142,7 @@
 					canvas.removeEventListener('click', ProcessClick, false);
 					context.drawImage(quizbg, 0, 0, 550, 90, 0, 0, 550, 400);
 					context.font = "20pt Calibri,Arial";
-					context.fillText("Você terminou o teste!", 20, 100);
+					context.fillText("Vocï¿½ terminou o teste!", 20, 100);
 					context.font = "16pt Calibri,Arial";
 					context.fillText("Corretas: " + String(rightanswers), 20, 200);
 					context.fillText("Erradas: " + String(wronganswers), 20, 240);
